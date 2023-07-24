@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <link rel="stylesheet" href="./css_files/styles.css">
+    <title>Mad Libs</title>
 </head>
 <body>
-    <p>Adding another text to test #2</p>
+    <h1 style="text-align: center;">Mad Libs</h1>
+    <div class="container">
+        <h3 style="text-align: center;">Fill out the form</h3>
+        <hr style="margin-top: 20px;margin-bottom: 20px;";>
+        <form>
+            <div class="form-fields">
+                <label for="adj1">Adjective 1:</label>
+                <input type="text" id="adj1" name="adj1">
+            </div>
+            <div class="form-fields">
+                <label for="Noun">Noun:</label>
+                <input type="text" id="noun" name="noun">
+            </div>
+            <div class="form-fields">
+                <label for="adj2">Adjective 2:</label>
+                <input type="text" id="adj2" name="adj2">
+            </div>
+            <div class="form-fields">
+                <label for="Clothing">Clothing:</label>
+                <input type="text" id="clothing" name="clothing">
+            </div>
+            <div class="form-fields">
+                <label for="Body Part">Body Part:</label>
+                <input type="text" id="bodypart" name="bodypart">
+            </div>
+            <div class="form-fields">
+                <label for="Verb">Verb:</label>
+                <input type="text" id="verb" name="verb">
+            </div>
+            <div class="form-fields">
+                <label for="Food">Food:</label>
+                <input type="text" id="food" name="food">
+            </div>
+            <button class="button" id="submit" style="margin-top: 10px;">Submit Form</button>   
+        </form>
+        <hr style="margin-top: 20px">
+        <p class="madlib"></p>
+    </div>
+    <script src="js/myapp.js"></script>
 </body>
 </html>
